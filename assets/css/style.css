@@ -468,7 +468,7 @@ ul.cart-list > li.total {
     overflow:hidden;
 }
 .single-populer-product-img.mt40{margin-top: 40px;}
-.single-inner-populer-products{margin-top: 40px;padding: 0 45px 0 30px;text-align: left;}
+.single-inner-populer-products{margin-top: 40px;padding: 0 45px 0 30px;text-align: center;}
 
 .single-populer-products h2 a {
     display: inline-block;
@@ -819,6 +819,11 @@ span.feature-review {margin-left: 10px;}
     height: 220px;
 }
 .clients .item {text-align: center;}
+@media (min-width:300px) and (max-width:500px) {
+    .clients .item{
+        display: none;
+    }
+}
 /*-------------------------------------
         10. News-letter
 --------------------------------------*/
