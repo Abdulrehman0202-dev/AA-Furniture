@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Showcase</title>
+    <link rel="stylesheet" href="signalpage.css">
+</head>
+  <body class="block-center-center">
+    <section class="Product inline-center-center gap-4">
+      <a href="#" class="Visual block-center-center">
+        <picture>
+          <source
+            srcset="
+            http://127.0.0.1:5500/assets/images/slider/slider2.png
+            "
+            type="image/avif"
+          />
+          <img
+            src="http://127.0.0.1:5500/assets/images/slider/slider2.png"
+            alt="cheetah hoodie"
+          />
+        </picture>
+        <picture>
+          <source
+            srcset="
+            http://127.0.0.1:5500/assets/images/slider/slider3.png
+            "
+            type="image/avif"
+          />
+          <img
+            src="http://127.0.0.1:5500/assets/images/slider/slider2.png"
+            alt="cheetah hoodie"
+          />
+        </picture>
+      </a>
+      <form action="" class="Form block-start-start gap-4">
+        <h3>Sofa And Chair </h3>
+
+        <div class="Price">$80.00</div>
+
+        <fieldset class="TagList inline-wrap gap-2">
+          <legend><b>Color</b>: (choose one)</legend>
+          <div class="TagToggle block">
+            <input
+              type="radio"
+              name="taglist-radio"
+              value="size-s"
+              id="taglist-radio-size-s"
+              required
+            />
+            <label for="taglist-radio-size-s">Red</label>
+          </div>
+          <div class="TagToggle block">
+            <input
+              type="radio"
+              name="taglist-radio"
+              value="size-m"
+              id="taglist-radio-size-m"
+              required
+            />
+            <label for="taglist-radio-size-m">Blue</label>
+          </div>
+          <div class="TagToggle block">
+            <input
+              type="radio"
+              name="taglist-radio"
+              value="size-l"
+              id="taglist-radio-size-l"
+              required
+            />
+            <label for="taglist-radio-size-l">Pink</label>
+          </div>
+          <div class="TagToggle block">
+            <input
+              type="radio"
+              name="taglist-radio"
+              value="size-xl"
+              id="taglist-radio-size-xl"
+              required
+            />
+            <label for="taglist-radio-size-xl">Green</label>
+          </div>
+          <div class="TagToggle block">
+            <input
+              type="radio"
+              name="taglist-radio"
+              value="size-2xl"
+              id="taglist-radio-size-2xl"
+              required
+            />
+            <label for="taglist-radio-size-2xl">Light</label>
+          </div>
+          <div class="TagToggle block">
+            <input
+              type="radio"
+              name="taglist-radio"
+              value="size-3xl"
+              id="taglist-radio-size-3xl"
+              required
+            />
+            <label for="taglist-radio-size-3xl">Gray</label>
+          </div>
+        </fieldset>
+        <fieldset id="quantity-list" class="QtField inline-center-center gap-2">
+          <label for="quantitySelect">Quantity:</label>
+          <select size="1" id="quantitySelect" name="amount_0_0">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+        </fieldset>
+
+        <div class="block-start-start gap-2">
+          <button class="Button Primary" type="submit">Pre-Order</button>
+          <small>SHIPS ON JANUARY 5, 2024</small>
+        </div>
+
+        <p>AA Furniture Company</p>
+      </form>
+    </section>
+  </body>
+</html>
