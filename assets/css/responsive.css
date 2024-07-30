@@ -90,7 +90,9 @@
 	.wrap-sticky nav.navbar.bootsnav.sticked .attr-nav > ul > li > a {padding: 22px 10px;}
 }/*max-width:350px*/
 
-@media screen and  (max-width: 320px){
-	
+@media (max-width: 320px) and  (min-width: 720px){
+	body{
+		overflow-x: hidden;
+	}
 }/*max-width:320px*/
 
