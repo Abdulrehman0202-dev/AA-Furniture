@@ -92,7 +92,7 @@
 
 @media  (min-width:320px) and  (max-width: 720px){
 	body{
-		overflow-y: hidden;
+		overflow-x: hidden;
 	}
 }/*max-width:320px*/
 
