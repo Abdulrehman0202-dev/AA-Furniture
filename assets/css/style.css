@@ -44,7 +44,7 @@ body{
 	color:#a09e9c;
 	background: #fff;
     text-transform: capitalize;
-    max-width:1920px;
+    /* max-width:1920px; */
     margin:0 auto;
 	overflow-x: hidden;
 }
