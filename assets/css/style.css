@@ -819,7 +819,7 @@ span.feature-review {margin-left: 10px;}
     height: 220px;
 }
 .clients .item {text-align: center;}
-@media (min-width:300px) and (max-width:500px) {
+@media (min-width:300px) and (max-width:1000px) {
     .clients .item{
         display: none;
     }
